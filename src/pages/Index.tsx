@@ -17,6 +17,7 @@ import {
   Shield,
   Globe
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroCommunity from "@/assets/hero-community.jpg";
 
 const Index = () => {
@@ -281,6 +282,7 @@ const Index = () => {
                 <li><a href="#" className="hover:text-foreground transition-colors">Dashboard</a></li>
                 <li><a href="#" className="hover:text-foreground transition-colors">Marketplace</a></li>
                 <li><a href="#" className="hover:text-foreground transition-colors">Impact Map</a></li>
+                <li><Link to="/pricing" className="hover:text-foreground transition-colors">Pricing</Link></li>
               </ul>
             </div>
             <div>
